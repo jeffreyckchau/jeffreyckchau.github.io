@@ -1,6 +1,5 @@
-#footer {
-	font-size: 0.7em;
-	float: bottom;
+body {
+	background-image: url("../images/halftone.png");
 }
 
 .center {
@@ -8,4 +7,53 @@
 	margin-right: auto;
 	width: 100%;
 	text-align: center;
+}
+
+.cover {
+	clear: both;
+	margin: auto;
+	font-size: 3em;
+	font-family: monospace;
+}
+
+#footer {
+	font-size: 0.7em;
+	float: bottom;
+	background-color: #7AA3CC;
+	clear: both;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+#left-banner {
+	float: left;
+	clear: none;
+	width: 40px;
+	height: 2000px;
+	margin-top: -500px;
+	background-color: #000099;
+	position: fixed;
+}
+
+.navbutton-custom {
+	background-color: #49627A;
+	border-radius: 5px;
+	border-width: 2px;
+	box-shadow: 3px 3px 4px #888888;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#right-banner {
+	float: right;
+	clear: left;
+	width: 40px;
+	height: 2000px;
+	margin-top: -500px;
+	margin-left: 6em;
+	background-color: #888888;
+	position: fixed;
+}
+
+.site-wrapper {
+	border-width: 3px;
 }
