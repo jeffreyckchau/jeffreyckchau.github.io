@@ -2,11 +2,15 @@ body {
 	background-image: url("../images/halftone.png");
 }
 
-.center {
+.centered {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	text-align: center;
+}
+
+.center-wrapper {
+	clear: none;
 }
 
 .cover {
@@ -26,12 +30,13 @@ body {
 
 #left-banner {
 	float: left;
-	clear: none;
-	width: 40px;
+	width: 160px;
 	height: 2000px;
-	margin-top: -500px;
-	background-color: #000099;
-	position: fixed;
+	/*margin-top: 0px; set by custom jquery*/
+	margin-left: 0;
+	background-color: #FFFFDB;
+	position: relative;
+	box-shadow: 2px 2px 5px #888888;
 }
 
 .navbutton-custom {
@@ -45,12 +50,19 @@ body {
 
 #right-banner {
 	float: right;
-	clear: left;
-	width: 40px;
+	width: 160px;
 	height: 2000px;
-	margin-top: -500px;
-	margin-left: 6em;
-	background-color: #888888;
+	/*margin-top: -500px; set by custom jquery*/
+	margin-left: auto;
+	margin-right: 0;
+	background-color: #FFFFDB;
+	position: relative;
+	box-shadow: -2px 2px 5px #888888;
+}
+
+.side-navbar {
+	margin-top: 250px;
+	margin-left: 25px;
 	position: fixed;
 }
 
