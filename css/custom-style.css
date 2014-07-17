@@ -13,6 +13,10 @@ body {
 	clear: none;
 }
 
+.content-wrapper-bordered {
+	border-top: 3px solid #A4A4A0;
+}
+
 .cover {
 	clear: both;
 	margin: auto;
@@ -28,6 +32,13 @@ body {
 	box-shadow: 1px 1px 2px #888888;
 }
 
+hr {
+	/* taken from online */
+	margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#F4F2E9), to(#F4F2E9), color-stop(50%, black));
+}
 #left-banner {
 	float: left;
 	width: 160px;
