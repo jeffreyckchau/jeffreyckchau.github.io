@@ -9,6 +9,10 @@ body {
 	text-align: center;
 }
 
+#contact_me {
+
+}
+
 .center-wrapper {
 	clear: none;
 }
@@ -50,6 +54,10 @@ hr {
 	box-shadow: 2px 2px 5px #888888;
 }
 
+#linkedin-logo {
+
+}
+
 .navbutton-custom {
 	background-color: #49627A;
 	border-radius: 5px;
@@ -79,4 +87,8 @@ hr {
 
 .site-wrapper {
 	border-width: 3px;
+}
+
+#twitter-logo {
+
 }
